@@ -18,6 +18,12 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/droid/DroidSansMono.ttf",tx
 =
 
 
+#####note: osx users, please include truetype font path
+```python
+font = ImageFont.truetype("/Library/Fonts/Arial.ttf", txtsize)
+```
+
+
 ## water marker for images
 
 requirements: python 2.7 and PIL(Python image library)
